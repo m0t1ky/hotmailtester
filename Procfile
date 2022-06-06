@@ -1,1 +1,2 @@
-web: gunicorn hotmail:hotmail
+web: export FLASK_APP=hotmail
+web: flask run
