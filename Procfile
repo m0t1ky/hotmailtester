@@ -1,2 +1,2 @@
 
-web: flask run --port 80
+web: gunicorn app:app
