@@ -1,1 +1,1 @@
-web: gunicorn hotmail:hotmail -a hotmail.py
+web: gunicorn hotmail:hotmail
