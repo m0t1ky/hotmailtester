@@ -13,4 +13,5 @@ def hotmail():
 	try:
   		imap.login(request.args.get("login"), request.args.get("passwd"))
   		return '{"status": "success"}'
-	except Exception as e: print(e)
+	except 
+		return '{"status": "failed"}'
